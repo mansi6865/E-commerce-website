@@ -1,0 +1,61 @@
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.header-img{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.logo-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+}
+.search-img{
+    position: absolute;
+    width: 3%;
+    padding-left: 1300px;
+    padding-top: 9px;
+}
+.services{
+    padding-right: 5;
+    
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select, textarea{
+    margin-left: 50px;
+    width: 70%;
+    padding: 15px;
+    margin:8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: 'Quattrocento', serif;
+}
+input[type="submit"]{
+    background-color: rgb(232, 176, 8);
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin-left: 12px;
+    width: 100px;
+    cursor: pointer; 
+}
+textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
